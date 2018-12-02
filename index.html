@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <!--Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--JQuery-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <!--CSS Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+    <!--Script for mobile menu-->
+    <script type="text/javascript">
+    // SIDEBAR
+    $(document).ready(function(){
+      $('.button-collapse').sideNav({
+          menuWidth: 150, // Width of sideNav
+          edge: 'left', // Choose the horizontal origin
+          closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+          draggable: true // Choose whether you can drag to open on touch screens
+        }
+      );
+      // START CLOSED
+      $('.button-collapse').sideNav('hide');
+    });
+    </script>
+
+    <title>Prince Antwi | Resume</title>
+</head>
+<body>
+  <!-- // Nav -->
+  <nav class="navbar-fixed black">
+    <div class="nav-wrapper">
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#hero">HOME</a></li>
+        <li><a href="#work">WORK</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a href="#hero">HOME</a></li>
+        <li><a href="#work">WORK</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- // Intro -->
+    <header class="hero" id="hero">
+        <!--<img src="your-picture.jpg" alt="Prince Antwi">-->
+        <h1>Prince Antwi</h1>
+        <h2>Create | Develop | Innovate</h2>
+        <p>Master Simplicity</p>
+    </header>
+
+    <main>
+      <div class="container">
+        <!-- // Work Experience -->
+        <section class="work" id="work">
+            <h2 class="card-panel black">Technical Work Experience</h2>
+
+            <!-- Job Details: copy this whole block to add more jobs -->
+            <h3 class="card-panel grey darken-2">Desktop Support Technician Intern</h3>
+            <img src="img/ccd_logo.png" alt="City and County of Denver Logo">
+            <p>Company: City and County of Denver</p>
+            <p>Date: April 2018 - Present</p>
+
+            <!-- Add as many paragraphs as you need. -->
+            <h4 class="card-panel grey lighten-2">Job summary</h4>
+              <ul class="desk_desc">
+                <li>Installing and repairing desktop hardware and software;
+                  installs/uninstalls wireless device and data systems, and
+                  processes work orders for wireless device and data users. </li>
+                <li>Performing technical support in a formal or informal help desk
+                  setting to users with complex and non-routine hardware and
+                  software problems, which includes: logging, troubleshooting,
+                  testing, adjusting, resolving, or referring problems to the
+                  appropriate Technology Services resource.</li>
+                <li>Acting as a liaison between user group and the
+                  Technology Services unit to communicate problems and possible
+                  solutions</li>
+              </ul>
+        </section>
+
+
+        <!-- // Education -->
+        <section class="educ">
+            <h2 class="card-panel black">Education</h2>
+            <img src="img/buff_logo.png" alt="Colorado Buffaloes Logo">
+
+            <!-- School details: copy this whole block to add more schools. -->
+            <h3 class="card-panel grey darken-2">University of Colorado at Boulder, 2014 - 2018</h3>
+            <p class="card-panel">Bachelor of Arts in Computer Science</p>
+
+            <!-- Add as many paragraphs as you need. -->
+            <p>Studied the many facets of Computer Science including Web Design,
+               Data Science, Networking, Operating Systems, among others
+            </p>
+            <!-- End of school details. -->
+        </section>
+      </div>
+    </main>
+
+    <!-- // Footer & contact info -->
+    <footer class="page-footer black" id="contact">
+         <div class="container">
+           <div class="row">
+             <div class="col l6 s12">
+               <h5 class="white-text">CONTACT ME</h5>
+               <p class="grey-text text-lighten-4">EMAIL: ANTWIOPRINCE@GMAIL.COM</p>
+             </div>
+             <div class="col l4 offset-l2 s12">
+               <h5 class="white-text">Links</h5>
+               <ul class="sm-icons">
+                 <li><a href="https://www.linkedin.com/in/prince-antwi-124a75147/"><i class="fab fa-linkedin" style="font-size: 2em;"></i></a></li>
+                 <li><a href="https://github.com/princeantwi"><i class="fab fa-github" style="font-size: 2em;" href=""></i></a></li>
+               </ul>
+             </div>
+           </div>
+         </div>
+         <div class="footer-copyright grey darken-3">
+           <div class="container copy">
+           © 2014 Copyright By Prince Antwi
+           </div>
+         </div>
+       </footer>
+</body>
+</html>

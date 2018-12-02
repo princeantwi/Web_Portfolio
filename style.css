@@ -1,0 +1,106 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Helvetica', sans-serif;
+}
+
+.padding {
+  padding: 40px 0;
+}
+
+.hero {
+  background-image: url("img/apartments-architectural-design-architecture-1146053.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 1em;
+  height: 100%;
+}
+
+.hero h1 {
+  text-transform: uppercase;
+  font-size: 5em;
+  font-weight: 300;
+  color: white;
+  text-align: center;
+  padding-bottom: 3em;
+}
+
+.hero h2 {
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+  letter-spacing: 10px;
+  padding-bottom: 1em;
+}
+
+.hero p {
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: 200;
+  color: white;
+  text-align: center;
+}
+
+.work {
+  padding: 2em;
+}
+
+.work img {
+  height: 100px;
+  width: 300px;
+}
+
+.work p {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+.work h2 {
+  color: white;
+}
+
+.work h3 {
+  font-size: 2em;
+  color: black;
+}
+
+.work h4 {
+  font-size: 1.5em;
+}
+
+.desk_desc li{
+  font-size: 1.5em;
+  padding: .5em;
+  background-color: #eeeeee;
+}
+
+.educ img {
+  height: 200px;
+  width: 350px;
+}
+
+.educ h2 {
+  color: white;
+}
+
+.educ h3 {
+  font-size: 2em;
+}
+
+.educ p{
+  font-size: 1.5em;
+  padding: .5em;
+}
+
+.sm-icons li{
+  display: inline;
+  padding: 1em;
+}
+
+.copy {
+  text-align: center;
+}
