@@ -15,21 +15,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <!--CSS Stylesheet-->
     <link rel="stylesheet" href="style.css">
-    <!--Script for mobile menu-->
-    <script type="text/javascript">
-    // SIDEBAR
-    $(document).ready(function(){
-      $('.button-collapse').sideNav({
-          menuWidth: 150, // Width of sideNav
-          edge: 'left', // Choose the horizontal origin
-          closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
-          draggable: true // Choose whether you can drag to open on touch screens
-        }
-      );
-      // START CLOSED
-      $('.button-collapse').sideNav('hide');
-    });
-    </script>
 
     <title>Prince Antwi | Resume</title>
 </head>
@@ -130,5 +115,22 @@
            </div>
          </div>
        </footer>
+
+       <!--Script for mobile menu-->
+       <script type="text/javascript">
+       // SIDEBAR
+       $(document).ready(function(){
+         $('.button-collapse').sideNav({
+             menuWidth: 150, // Width of sideNav
+             edge: 'left', // Choose the horizontal origin
+             closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+             draggable: true // Choose whether you can drag to open on touch screens
+           }
+         );
+         // START CLOSED
+         $('.button-collapse').sideNav('hide');
+       });
+       </script>
+
 </body>
 </html>
