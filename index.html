@@ -26,11 +26,13 @@
       <ul class="right hide-on-med-and-down">
         <li><a href="./index.html">HOME</a></li>
         <li><a href="#work">WORK</a></li>
+        <li><a href="#gallery">GALLERY</a></li>
         <li><a href="#contact">CONTACT</a></li>
       </ul>
       <ul class="side-nav" id="mobile-demo">
         <li><a href="./index.html">HOME</a></li>
         <li><a href="#work">WORK</a></li>
+        <li><a href="#gallery">GALLERY</a></li>
         <li><a href="#contact">CONTACT</a></li>
       </ul>
     </div>
@@ -99,12 +101,23 @@
 
             <!-- Add as many paragraphs as you need. -->
             <p>Studied the many facets of Computer Science including Web Design,
-               Data Science, Networking, Operating Systems, among others
+              Web Development, and Software Development.
             </p>
             <!-- End of school details. -->
         </section>
       </div>
     </main>
+
+    <section class="gallery" id="gallery">
+      <div class="container">
+      <h2 class="card-panel black">Design Gallery</h2>
+        <div class="carousel carousel-slider">
+          <a class="carousel-item" href="#one!"><img src="img/link.png"></a>
+          <a class="carousel-item" href="#two!"><img src="img/kiwi.png"></a>
+          <a class="carousel-item" href="#three!"><img src="img/mountain.png"></a>
+        </div>
+      </div>
+    </section>
 
     <!-- // Footer & contact info -->
     <footer class="page-footer black" id="contact">
@@ -143,6 +156,10 @@
          );
          // START CLOSED
          $('.button-collapse').sideNav('hide');
+       });
+
+       $('.carousel.carousel-slider').carousel({
+         fullWidth: 500
        });
        </script>
 

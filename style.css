@@ -96,6 +96,10 @@ html, body {
   padding: .5em;
 }
 
+.gallery {
+  color: white;
+}
+
 .sm-icons li{
   display: inline;
   padding: 1em;
