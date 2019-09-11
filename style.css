@@ -98,11 +98,12 @@ html, body {
 
 .gallery {
   color: white;
+  padding: 1em;
 }
 
 .sm-icons li{
   display: inline;
-  padding: 1em;
+  padding: 2em;
 }
 
 .copy {
